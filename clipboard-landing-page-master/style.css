@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+    text-align: center;
+    color: var(--dark-grayish-blue);
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    background-image: url('/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 30px auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+.container-small {
+    width: 700px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex > * {
+    flex: 1;
+    padding: 10px;
+ }
+
+ .m4 {
+     margin: 100px auto;
+ }
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Bai jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 30px;
+    margin: 15px 5px;
+}
+
+.btn-primary {
+    background-color: var(--strong-cyan);
+    box-shadow: 0 3px hsl(171, 82%, 33%);
+}
+
+.btn-secondary {
+    background-color: var(--light-blue);
+    box-shadow: 0 3px hsl(233, 50%, 47%);
+}
+
+footer {
+    background-color: var(--grayish-blue);
+    height: 100px;
+}
+
+footer ul {
+    display: flex;
+    flex: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+footer img {
+    width: 60px;
+}
+
+footer ul a {
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+}
+
+footer .links {
+    flex: 2;
+}
+
+footer .links li {
+    margin-right: 40px;
+}
+
+footer .social {
+    margin: 0 5px;
+}
+
+footer .social a {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    footer .links {
+        flex-direction: column;
+    }
+
+    footer .links li {
+        padding: 10px;
+        margin-right: 0;
+    }
+}
