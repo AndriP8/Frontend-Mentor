@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="d-flex flex-column flex-sm-row align-items-center justify-content-between p-5">
+        <img src="./images/logo.svg" alt="" class="img-fluid" />
+        <a href="#" class="btn btn-nav mt-5 mt-sm-0">Try it free</a>
+      </nav>
+      <div class="container container-header container-fluid text-center">
+        <h1 class="pb-3">Build The Community Your Fans Will Love</h1>
+        <p class="text-header pb-3 mx-auto">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+        </p>
+        <a href="#" class="btn btn-header mb-5">Get Started For Free</a>
+        <div>
+          <img src="./images/screen-mockups.svg" alt="" class="img-fluid" />
+        </div>
+
+        <div class="d-flex justify-content-around align-items-center flex-column flex-sm-row" style="margin: 100px">
+          <div class="row">
+            <div class="col">
+              <img src="./images/icon-communities.svg" class="float-start" alt="" />
+              <p class="total-num m-0">1.4k+</p>
+              <small class="text-center">Communities Formed</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="./images/icon-messages.svg" class="float-start" alt="" />
+              <p class="total-num m-0">2.7m+</p>
+              <small class="text-center">Messages Sent</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main section -->
+    <section>
+      <!-- bg curve top dekstop -->
+      <img src="./images/bg-section-top-desktop-1.svg" alt="" class="img-fluid img-curve d-none d-sm-flex" />
+      <!-- bg curve top mobile -->
+      <img src="./images/bg-section-top-mobile-1.svg" alt="" class="d-sm-none img-curve bg-curve-mobile" />
+      <div class="container-section container-fluid p-5">
+        <div class="row flex-column-reverse flex-sm-row align-items-center justify-content-center">
+          <div class="col col-sm-5 me-md-5 pe-md-5 text-center text-sm-start">
+            <h1>Grow Together</h1>
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+          </div>
+          <div class="col col-sm-5 pb-5 pb-sm-0 mb-5 mb-sm-0">
+            <img src="./images/illustration-grow-together.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <!-- bg curve bottom dekstop -->
+      <img src="./images/bg-section-bottom-desktop-1.svg" alt="" class="img-fluid img-curve d-none d-sm-flex" />
+      <!-- bg curve bottom mobile -->
+      <img src="./images/bg-section-bottom-mobile-2.svg" alt="" class="d-sm-none img-curve bg-curve-mobile" />
+    </section>
+    <section class="pt-5">
+      <div class="container-section-white container-fluid p-5">
+        <div class="row flex-column flex-sm-row align-items-center justify-content-center">
+          <div class="col col-sm-5 pb-5 pb-sm-0 mb-5 mb-sm-0">
+            <img src="./images/illustration-flowing-conversation.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="col col-sm-5 ms-3 text-center text-sm-start">
+            <h1>Flowing Conversations</h1>
+            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- bg curve top dekstop -->
+      <img src="./images/bg-section-top-desktop-2.svg" alt="" class="img-fluid img-curve d-none d-sm-flex" />
+      <!-- bg curve bottom mobile -->
+      <img src="./images/bg-section-top-mobile-2.svg" alt="" class="img-fluid d-sm-none bg-curve-mobile" />
+      <div class="container-section container-fluid">
+        <div class="row flex-column-reverse flex-sm-row align-items-center justify-content-center">
+          <div class="col col-sm-5 me-md-5 pe-md-5 text-center text-sm-start">
+            <h1>Your Users</h1>
+            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately</p>
+          </div>
+          <div class="col col-sm-5 pb-5 pb-sm-0 mb-5 mb-sm-0">
+            <img src="./images/illustration-your-users.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <!-- bg curve botttom dekstop -->
+      <img src="./images/bg-section-bottom-desktop-2.svg" alt="" class="img-fluid img-curve d-none d-sm-flex" />
+      <!-- bg curve bottom mobile -->
+      <img src="./images/bg-section-bottom-mobile-2.svg" alt="" class="img-fluid d-sm-none bg-curve-mobile" />
+    </section>
+
+    <!-- Get started section -->
+    <section class="get-started">
+      <div class="container-fluid text-center">
+        <h1 class="pb-4">Ready To Build Your Community?</h1>
+        <a href="#" class="btn btn-header mb-5">Get Started For Free</a>
+      </div>
+    </section>
+
+    <footer>
+      <!-- bg curve footer dekstop -->
+      <img src="./images/bg-footer-top-desktop.svg" alt="" class="img-fluid img-curve d-none d-sm-flex m-0 p-0" />
+      <!-- bg curve footer mobile -->
+      <img src="./images/bg-footer-top-mobile.svg" alt="" class="img-fluid d-sm-none bg-curve-mobile m-0 p-0" />
+      <div class="container-footer container-fluid">
+        <div class="container">
+          <div class="row pt-5 flex-column-reverse flex-md-row align-items-center justify-content-center">
+            <div class="col col-md-4 text-white">
+              <img src="./images/logo1.svg" alt="" class="img-fluid pb-3" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+              <div class="contact d-flex">
+                <img src="./images/icon-phone.svg" alt="" class="img-fluid img-contact me-3 mt-1" />
+                <p class="d-flex align-items-center justify-content-center">Phone: +1-543-123-4567</p>
+              </div>
+              <div class="contact d-flex">
+                <img src="./images/icon-email.svg" alt="" class="img-fluid img-contact me-3 mt-1" />
+                <p>example@huddle.com</p>
+              </div>
+              <div class="social d-flex">
+                <a href="" class="pe-2 text-white icon-social">
+                  <i class="fab fa-facebook-square fs-4 pe-2"></i>
+                </a>
+                <a href="" class="pe-2 text-white icon-social">
+                  <i class="fab fa-instagram-square fs-4 pe-2"></i>
+                </a>
+                <a href="" class="text-white icon-social">
+                  <i class="fab fa-twitter-square fs-4"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col col-md-6 offset-md-2 newsletter pt-5 pt-md-0 text-white">
+              <h2 class="pb-1">Newsletter</h2>
+              <p class="desc-newsletter">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+              <div class="input-footer">
+                <input type="text" class="input-subscribe mb-3 mb-sm-0" />
+                <a href="" class="btn btn-input text-white float-end float-sm-none">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="name pt-sm-4 text-white">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://twitter.com/andrikp3">Andri Purnomo</a>.
+      </p>
+    </footer>
+  </body>
+</html>
