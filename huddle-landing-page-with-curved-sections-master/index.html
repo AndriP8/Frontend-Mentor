@@ -14,6 +14,8 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        padding: 10px 0;
+        margin: 0;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -110,7 +112,7 @@
       <img src="./images/bg-section-top-mobile-2.svg" alt="" class="img-fluid d-sm-none bg-curve-mobile" />
       <div class="container-section container-fluid">
         <div class="row flex-column-reverse flex-sm-row align-items-center justify-content-center">
-          <div class="col col-sm-5 me-md-5 pe-md-5 text-center text-sm-start">
+          <div class="col col-sm-5 mx-md-5 pe-md-5 text-center text-sm-start">
             <h1>Your Users</h1>
             <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately</p>
           </div>
@@ -167,9 +169,11 @@
             <div class="col col-md-6 offset-md-2 newsletter pt-5 pt-md-0 text-white">
               <h2 class="pb-1">Newsletter</h2>
               <p class="desc-newsletter">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
-              <div class="input-footer">
-                <input type="text" class="input-subscribe mb-3 mb-sm-0" />
-                <a href="" class="btn btn-input text-white float-end float-sm-none">Subscribe</a>
+              <div class="input-footer d-flex flex-md-row flex-column">
+                <input type="text" class="input-subscribe me-4 mb-3 mb-md-0" />
+                <div class="d-flex justify-content-md-start justify-content-end">
+                  <a href="" class="btn btn-input text-white">Subscribe</a>
+                </div>
               </div>
             </div>
           </div>
